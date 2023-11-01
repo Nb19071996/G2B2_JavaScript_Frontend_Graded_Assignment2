@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 1px solid black;
+  height: 100vh;
+  width: auto;
+  background: linear-gradient(115deg, #56d8e4 10%, #9f01ea 90%);
+  /* background: rgb(204, 204, 204); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container {
+  /* border: 1px solid black; */
+  border-radius: 3px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background: rgb(247, 246, 240);
+  height: 50%;
+  width: 500px;
+  box-shadow: 0 0 5px black;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+}
+
+#header {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 0;
+  transform: translateY(-100%);
+  position: fixed;
+}
+
+#head {
+  margin-top: 10px;
+  font-size: 2rem;
+}
+#error {
+  color: red;
+  font-size: medium;
+  margin-bottom: 2%;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  position: fixed;
+  transform: translate(-50%, -40%);
+}
+
+#username {
+  height: 20px;
+  margin-bottom: 20px;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  text-align: left;
+}
+
+#password {
+  height: 20px;
+  margin-bottom: 20px;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  text-align: left;
+}
+
+.btn {
+  width: fit-content;
+  height: 35px;
+  border-radius: 3px;
+  border-color: black;
+  width: 200px;
+  align-self: center;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  /* transform: translate(220%); */
+  font-size: 1rem;
+  background: linear-gradient(115deg, #9f01ea 10%, #56d8e4 90%);
+  /* background: rgb(154, 205, 50); */
+  
+}
+
+.btn:hover {
+  cursor: pointer;
+  transition: 0.4s;
+  background: aliceblue;
+  color: red;
+}
